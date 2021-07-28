@@ -10,7 +10,7 @@ class StatefulCommand extends BuildCommand {
   String get description => 'Creates a basic flutter StatefulWidget.';
 
   @override
-  String get name => 'sful';
+  String get name => 'stateful';
 
   @override
   void run() {

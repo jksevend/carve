@@ -10,7 +10,7 @@ class StatelessCommand extends BuildCommand {
   String get description => 'Creates a basic flutter StatelessWidget.';
 
   @override
-  String get name => 'sless';
+  String get name => 'stateless';
 
   @override
   void run() {

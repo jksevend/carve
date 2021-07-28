@@ -11,10 +11,10 @@ class ModelCommand extends BaseCommand {
   String get name => 'model';
 
   ModelCommand() {
-    argParser.addFlag('json',
-        abbr: 'j',
-        help:
-            'Wheter to create fromJson() and toJson() methods for the model.');
+    // argParser.addFlag('json',
+    //     abbr: 'j',
+    //     help:
+    //         'Wheter to create fromJson() and toJson() methods for the model.');
   }
 
   @override
